@@ -1,8 +1,0 @@
-
- <button class="btn btn-primary" (click)="onToggleDetails()" style="margin-top:2%;margin-left:1%;">Display Details</button>
- <p style="margin-top:2%;margin-left:2%;" *ngIf="showSecret">Secret Password = tuna</p>
- <div style="margin-left:2%;"
-   *ngFor="let logItem of log"
-   [ngStyle]="{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
-   [ngClass]="{'white-text': logItem >= 5}"
- >{{ logItem }}</div>
