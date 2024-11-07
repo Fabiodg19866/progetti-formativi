@@ -1,0 +1,9 @@
+        <p appDirectives>Home</p>
+        <button
+          class="btn btn-primary"
+          (click)="onlyOdd = !onlyOdd" style="margin-left:1%;">Only odd </button>
+        <br><br>
+        <ng-template [ngIf]="onlyOdd">
+          <p style="margin-left:20px;">Only odd</p>
+        </ng-template>
+   
