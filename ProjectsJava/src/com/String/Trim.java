@@ -7,6 +7,4 @@ public class Trim {
         System.out.println(myStr.trim());
 
     }
-
-
 }

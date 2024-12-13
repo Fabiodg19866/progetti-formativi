@@ -1,24 +1,18 @@
 package com.String;
 
 public class Concat {
-	
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
 
-		String nome = "fabio ";
-		String cognome = "di gloria";
-		String nomeCompleto= nome.concat(cognome);
-	
-		System.out.println(nomeCompleto);
+        String name = "fabio ";
+        String surname = "di gloria";
+        String nameSurname = name.concat(surname);
 
-        
-          
-           
-           
+        System.out.println(nameSurname);
 
-		
-	}
 
+    }
 
 
 }
