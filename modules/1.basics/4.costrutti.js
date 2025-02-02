@@ -44,8 +44,8 @@ switch (mese) {
 
 let first;
 
-for (first = 50; first > 20; first = first - 2) {
-  if (first == 25) {
+for (first = 50;first > 20; first = first - 2) {
+  if (first == 26) {
     continue; //comando continue
   }
 

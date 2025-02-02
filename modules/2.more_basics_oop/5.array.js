@@ -1,3 +1,4 @@
+
 let colori = ["rosso", "verde", "giallo"];
 console.log(colori); // elementi aggiunti nell'array
 console.log(colori[0]); // recupero posizione elemento array

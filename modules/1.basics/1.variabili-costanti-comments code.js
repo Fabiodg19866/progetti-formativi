@@ -2,12 +2,14 @@
 
 //let add; // variabile dichiarata
 let add = 2; // variabile dichiarata e inizializzata
+add = 3
 var mounth = "december";
-const ANNO = 2023; // costante fissa
+const anno = 2023; // costante fissa
+anno = 2024
 let val = "fabio"; // variabile per valore
 let eq = val; // variabile per riferimento
 
-console.log(add + "\n" + ANNO + "\n" + val + "\n" + eq);
+console.log(add + "\n" +anno + "\n" + val + "\n" + eq);
 
 /*commento multirighe*let num1 = 5;
 let num2 = 'due';

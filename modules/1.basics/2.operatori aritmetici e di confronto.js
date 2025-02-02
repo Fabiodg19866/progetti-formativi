@@ -5,6 +5,7 @@ let div = 10 / 2;
 let mod = 100 % 5; //++ operatore di incremento
 let sottr = 50 - 25;
 sottr += "\n" + "eseguo una sottrazione"; // -- operatore di decremento
+let add = 25
 
 console.log(addz + "\n" + prod + "\n" + div + "\n" + mod + "\n" + sottr);
 
@@ -21,8 +22,8 @@ if (addz == prod) {
   // minore uguale
 
   console.log(true);
-} else if (add >= sottr) {
+} else if (add == sottr) {
   // maggiore uguale
 
-  console.log(false);
+  console.log(true);
 }
