@@ -16,7 +16,6 @@ class Freelancer {
        
     }
     
-    
     getUtileTasse() {
         
     return (this.reddLordo*this.coefRedd)/100
