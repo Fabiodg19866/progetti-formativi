@@ -23,6 +23,13 @@ colori.forEach(function (item, index) {
   console.log(item + " " + index);
 });
 
+let numeri = [1, 2, 3, 4, 1, 2, 5, 6, 3]; // rimuovo i valori duplicati
+      let array = new Set(numeri);
+      console.log(array);
+      let nomi = ['c','c','b','b','a','a','d','d']
+      let set = new Set(nomi);
+      console.log(set);
+
 let multi = [
   ["anna", 45],
   ["paolo", 10],
