@@ -1,15 +1,19 @@
-class Students {
-    constructor(members) {
+var MyAccount = /** @class */ (function () {
+    //proprietà della classe
+    function MyAccount(balance, firstDeposit, firstDraw) {
         //costruttore della classe
-        this.members = members;
+        MyAccount.balance = balance;
+        MyAccount.firstDeposit = firstDeposit;
+        MyAccount.firstDraw = firstDraw;
     }
-    static members() {
-        return 10;
-    }
-}
-let students = new Students(23);
-console.log(students);
-// istanza della classe
-let membersStudents = Students.members(); // chiamo il metodo static
-console.log(membersStudents);
-//# sourceMappingURL=modificator-static.js.map
+    MyAccount.getFirstDeposit = function () {
+        return this.balance + this.firstDeposit;
+    };
+    MyAccount.getTotalAccount = function () {
+        return this.getFirstDeposit() - this.firstDraw;
+    };
+    return MyAccount;
+}());
+var myAccount = new MyAccount(0, 500, 100);
+var total = MyAccount.getTotalAccount(); // chiamo il metodo static
+console.log(total);

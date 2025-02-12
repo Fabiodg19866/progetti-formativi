@@ -1,20 +1,29 @@
-class Students {
+class MyAccount {
   // classe
 
-  members: number; //proprietà della classe
+  static balance: number;
+  static firstDeposit: number;
+  static firstDraw: number;
+ //proprietà della classe
 
-  constructor(members: number) {
+  constructor(balance: number,firstDeposit:number,firstDraw:number) {
     //costruttore della classe
-    this.members = members;
+    MyAccount.balance = balance;
+    MyAccount.firstDeposit = firstDeposit;
+    MyAccount.firstDraw = firstDraw;
   }
 
-  static members(): number {
-    return 10;
+  static getFirstDeposit(): number {
+    return this.balance + this.firstDeposit;
+  }
+
+
+  static getTotalAccount(): number {
+    return this.getFirstDeposit() - this.firstDraw;
   }
 }
-let students = new Students(23);
+let myAccount = new MyAccount(0, 500, 100);
+let total = MyAccount.getTotalAccount() // chiamo il metodo static
+console.log(total);
 
-console.log(students);
-// istanza della classe
-let membersStudents = Students.members(); // chiamo il metodo static
-console.log(membersStudents);
+
