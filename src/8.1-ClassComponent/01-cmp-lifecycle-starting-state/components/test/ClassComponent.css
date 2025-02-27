@@ -1,0 +1,31 @@
+.user {
+    margin-bottom:30%;
+    margin-left:45%;
+    font-weight: bold;
+    color:blue;
+    background-color: lightyellow;
+    padding:50px;
+    border-radius:10px;
+  }
+
+  .max{
+    margin-left:5%;
+    font-weight: bold;
+    color:blue;
+    background-color: lightyellow;
+    padding:50px;
+    border-radius:10px;
+
+
+  }
+
+  .min{
+    margin-left:5%;
+    font-weight: bold;
+    color:blue;
+    background-color: lightyellow;
+    padding:50px;
+    border-radius:10px;
+
+
+  }

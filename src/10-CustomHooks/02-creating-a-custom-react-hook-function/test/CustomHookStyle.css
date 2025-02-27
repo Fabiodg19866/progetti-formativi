@@ -1,0 +1,16 @@
+.custom-hook-style{
+  color:blue;
+  padding:60px;
+  border-radius:20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.custom-hook-counter{
+
+    color: red;
+  font-size: large;
+  font-weight: bolder;
+
+
+}
