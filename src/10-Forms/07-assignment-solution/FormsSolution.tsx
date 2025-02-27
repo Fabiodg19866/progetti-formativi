@@ -1,3 +1,4 @@
+import React from "react";
 import FormsSolutionSimpleInput from './components/FormsSolutionSimpleInput';
 
 const  FormsSolution=()=> {

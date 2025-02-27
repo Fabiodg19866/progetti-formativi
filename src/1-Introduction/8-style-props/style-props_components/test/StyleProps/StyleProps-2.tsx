@@ -1,3 +1,4 @@
+import React from "react";
 import StyleProps3 from "./StyleProps-3";
 import { IIntroduction } from "../../../../model/IIntroduction";
 

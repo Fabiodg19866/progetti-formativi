@@ -1,3 +1,4 @@
+import React from "react";
 import { IState } from "../model/IState";
 import ExpenseItem from "./components/ExpensesItem/ExpenseItem";
 

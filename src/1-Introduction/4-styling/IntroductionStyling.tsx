@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./IntroductionStyling.css";
 
 const IntroductionStyling = () => {

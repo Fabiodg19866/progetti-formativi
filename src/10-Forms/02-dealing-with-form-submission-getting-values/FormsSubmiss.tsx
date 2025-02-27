@@ -1,3 +1,4 @@
+import React from "react";
 import FormsSubmissSimpleInput from "./components/FormsSubmissSimpleInput";
 
 const FormsSubmiss = () => {

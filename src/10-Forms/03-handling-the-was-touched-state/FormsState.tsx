@@ -1,3 +1,4 @@
+import React from "react";
 import FormsStateSimpleInput from './components/FormsStateSimpleInput';
 
 function FormsState() {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const FormsSolutionSimpleInput = () => {
   const [enteredName, setEnteredName] = useState('');

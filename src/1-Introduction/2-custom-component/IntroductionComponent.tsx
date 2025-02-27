@@ -1,3 +1,5 @@
+import React from "react";
+
 import ChildIntroductionComponent from "./introduction_components/ChildIntroductionComponent";
 
 const IntroductionComponent = () => {

@@ -1,3 +1,4 @@
+import React from "react";
 import FormsFocusSimpleInput from './components/FormsFocusSimpleInput';
 
 const FormsFocus=()=> {

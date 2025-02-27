@@ -1,3 +1,5 @@
+import React from "react";
+
 import Props from "./props-components/Props";
 
 const PropsData = () => {

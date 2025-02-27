@@ -1,3 +1,4 @@
+import React from "react";
 import FormsValidationSimpleInput from './components/FormsValidationSimpleInput';
 
 const FormsValidation=()=> {

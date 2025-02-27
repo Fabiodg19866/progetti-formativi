@@ -1,3 +1,5 @@
+
+import React from "react";
 import { IIntroduction } from "../../model/IIntroduction";
 
 const Props: React.FC<IIntroduction> = (props) => {

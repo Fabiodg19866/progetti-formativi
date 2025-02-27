@@ -1,3 +1,4 @@
+import React from "react";
 import StyleExpenses from "./style-props_components/StyleExpenses";
 
 const StylePropsExpenses = () => {

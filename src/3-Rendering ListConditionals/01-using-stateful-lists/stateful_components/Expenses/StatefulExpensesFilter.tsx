@@ -1,3 +1,5 @@
+import React from "react";
+
 const StatefulExpensesFilter: React.FC<{
   onChangeFilter: (value: string) => void;
   selected: string;

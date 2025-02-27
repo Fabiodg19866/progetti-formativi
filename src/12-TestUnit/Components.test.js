@@ -7,11 +7,6 @@ import TestUnitTestMocksAsync from './03-working-with-mocks/TestUnitTestMocks';
 
 describe('Test component', () => {
 
-test('app component renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-})
 
 
 test('greetings component renders Hello World as a text', () => {

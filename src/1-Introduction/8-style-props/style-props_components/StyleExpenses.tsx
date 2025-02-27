@@ -1,3 +1,4 @@
+import React from "react";
 import { IIntroduction } from '../../model/IIntroduction';
 import StyleExpenseItem from './StyleExpenseItem';
 import './StyleExpenses.css';
