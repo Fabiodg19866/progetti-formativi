@@ -9,7 +9,7 @@ let add = 25
 
 console.log(addz + "\n" + prod + "\n" + div + "\n" + mod + "\n" + sottr);
 
-// operatori di confronto
+// operatori di confronto  < <= > >= !=
 
 if (addz == prod) {
   // uguale a
@@ -22,7 +22,7 @@ if (addz == prod) {
   // minore uguale
 
   console.log(true);
-} else if (add == sottr) {
+} else if (add >= sottr) {
   // maggiore uguale
 
   console.log(true);

@@ -1,21 +1,35 @@
-// CONCETTI SU OPERATORI DI DIVERSO TIPO
+  // OPERATORI LOGICI AND && OR ||
+let codice_01 = 50
+let codice_02 = 50
+let codice_03 = 100
+let codice_04 =200
 
-let codice_01 = 100; //OPERATORI LOGICI
-let codice_02 = 200;
-let codice_03 = 300; // && operatore AND
-let codice_04 = 300; // || operatore OR
-// == uguale a
-//! negato
 
-if (codice_03 != codice_04 && codice_01 == codice_02) {
-  // restituisce sempre true
-
+if (codice_03 == codice_04 && codice_01 == codice_02) {  // SE LA PRIMA ESPRESSIONE RISULTA ESSERE VERA E LA SECONDA ESSERE FALSA RESTITUISCE FALSE
+                                                          // SE TUTTE E DUE LE ESPRESSIONI SONO VERE RESTITUISCE TRUE
+                                                          // SE TUTTE E DUE LE ESPRESSIONI SONO FALSE RESTITUISCE FALSE
+              
   console.log(true);
-} else if (codice_03 == codice_04 || codice_03 != codice_04) {
-  //restituisce sempre false
+} else  {
+  
 
   console.log(false);
 }
+
+
+if (codice_03 == codice_04 || codice_01 != codice_02) { // SE LA PRIMA ESPRESSIONE RISULTA ESSERE VERA E LA SECONDA ESSERE FALSA RESTITUISCE TRUE
+                                                          // SE TUTTE E DUE LE ESPRESSIONI SONO VERE RESTITUISCE TRUE
+                                                          // SE TUTTE E DUE LE ESPRESSIONI SONO FALSE RESTITUISCE FALSE
+              
+
+    console.log(true);
+} else  {
+
+      console.log(false);
+}
+
+
+
 
 // operatori ternari
 

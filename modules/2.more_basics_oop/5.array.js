@@ -1,6 +1,10 @@
 
 let colori = ["rosso", "verde", "giallo"];
-console.log(colori); // elementi aggiunti nell'array
+; // elementi aggiunti nell'array
+
+for (let index = 0; index < colori.length; index++) { // ITERO IL MIO ARRAY
+  console.log(colori[index]);
+}
 console.log(colori[0]); // recupero posizione elemento array
 colori.unshift("blu"); // aggiungo un elemento alla prima posizione
 console.log(colori);
