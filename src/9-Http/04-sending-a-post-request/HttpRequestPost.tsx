@@ -15,7 +15,7 @@ const HttpRequestPost: React.FC<IHttp> = () => {
     setError("");
     try {
       const response = await axios.post(
-        "https://create-react-67625-default-rtdb.firebaseio.com/movies.json"
+        "https://corso-react-6e696-default-rtdb.firebaseio.com/movies.json"
       );
       if (!response.data) {
         throw new Error("Something went wrong!");
@@ -47,7 +47,7 @@ const HttpRequestPost: React.FC<IHttp> = () => {
 
   const addMovieHandler = async (movie: IHttp) => {
     const response = await axios.post(
-      "https://create-react-67625-default-rtdb.firebaseio.com/movies.json",
+      "https://corso-react-6e696-default-rtdb.firebaseio.com//movies.json",
       {
         method: "POST",
         body: JSON.stringify(movie),

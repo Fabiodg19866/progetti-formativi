@@ -1,4 +1,3 @@
-import React from "react";
 import ChildComponent from "./debug_component/ChildComponent";
 
 const DebugComponent = () => {

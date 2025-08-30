@@ -6,9 +6,9 @@ class StateClassComponent extends React.Component<
   state = { count: 0 };
   render() {
     return (
-      <div onClick={() => this.increment(1)}>
+      <button onClick={() => this.increment(1)}>
         {this.props.message} {this.state.count}
-      </div>
+      </button>
     );
   }
   increment = (amt: number) => {

@@ -1,12 +1,14 @@
 import React from "react";
-
-import ChildIntroductionComponent from "./introduction_components/ChildIntroductionComponent";
+import SonComponent from "./introduction_components/SonComponent";
 
 const IntroductionComponent = () => {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <ChildIntroductionComponent />
+      <h2>Ho ricevuto delle informazioni dal SonComponent </h2>
+
+      <div>
+        <SonComponent />
+      </div>
     </div>
   );
 };

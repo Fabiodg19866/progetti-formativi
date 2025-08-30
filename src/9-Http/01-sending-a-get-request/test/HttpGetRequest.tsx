@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { IHttp } from "../../model/IHttp";
 import HttpRequestMoviesList from "../components/HttpRequestMoviesList";
 
-const baseURL = "https://swapi.py4e.com/api/films/";
+const baseURL = "https://swapi.py4e.com/api/films";
 
 const ReactGet = () => {
   const [movies, setMovies] = useState([]);

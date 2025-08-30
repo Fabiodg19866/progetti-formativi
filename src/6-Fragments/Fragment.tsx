@@ -1,7 +1,8 @@
-import React from "react";
+
+import React,{Fragment} from "react";
 import ChildFragment from "./ChildFragment";
 
-const Fragment = () => {
+const FatherFragment = () => {
   const films = [
     {
       id: 1,
@@ -41,4 +42,4 @@ const Fragment = () => {
   );
 };
 
-export default Fragment;
+export default FatherFragment;

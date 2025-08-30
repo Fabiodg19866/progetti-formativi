@@ -8,7 +8,6 @@ const ChildProps: React.FC<IIntroduction> = (props) => {
       <p>{props.nation}</p>
       <p>{props.age}</p>
       <p>{props.city}</p>
-      <p>{props.children}</p>
     </div>
   );
 };
