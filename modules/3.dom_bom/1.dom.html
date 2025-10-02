@@ -40,12 +40,16 @@
       id="brown"
       style="margin-left: 45%; color: brown; margin-top: 20px"
     ></h3>
-    <h4 id="welcome" style="margin-left: 45%">ciaooo</h4>
+    <h4 id="welcome" style="margin-left: 45%">Benvenuto in Html</h4>
+    <h1 id="javascript">javascript</h1>
     <a id="link" style="margin-left: 46%; margin-bottom: 20%">Google</a>
 
     <script>
       let js = (document.getElementById("welcome").innerHTML =
-        "Welcome to dom");
+        "Benvenuto in Javascript");
+
+     
+
       document.getElementById("welcome").style.color = "red";
       document
         .getElementById("link")
@@ -54,7 +58,7 @@
       let para = document.createElement("h3"); //inizio document.createElement
       let node = document.createTextNode("Create New Element");
       para.appendChild(node);
-      let element = document.getElementById("brown");
+      let element = document.getElementById("ELEMENT");
       element.appendChild(para);
     </script>
   </body>

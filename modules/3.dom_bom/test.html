@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+           <h1 id="welcome">Benvenuto in Html</h1>
+           <h2 id="javascript">javascript</h2>
+               <a id="link" style="margin-left: 46%; margin-bottom: 20%"></a>
+            <h3 id="element"></h3>
+
+    <script>
+
+      let js = (document.getElementById("welcome").innerHTML =
+        "Benvenuto in Javascript");
+         document.getElementById("welcome").style.color = "brown";
+          document.getElementById("welcome").style.backgroundColor = "yellow";
+          document.getElementById("welcome").style.textAlign = 'center'
+           document.getElementById("welcome").style.fontFamily = 'Courier'
+           document.getElementById("welcome").style.fontSize = '25 sp'
+
+        document.getElementById("javascript").innerHTML =
+        "JAVASCRIPT";
+
+           document.getElementById("link").innerHTML =
+        "GOOGLE";
+
+
+            document
+        .getElementById("link")
+        .setAttribute("href", "https://www.google.com");
+
+
+    let para = document.createElement("h3"); //inizio document.createElement
+      let node = document.createTextNode("Create New Element");
+      para.appendChild(node);
+      let element = document.getElementById("element");
+      element.appendChild(para);
+
+
+    </script>
+</body>
+</html>
