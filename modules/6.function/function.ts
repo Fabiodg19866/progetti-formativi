@@ -4,6 +4,19 @@ function technology(java: string, version: number,): any {
 
 console.log(technology("Java", 8,));
 
+
+function utenti(nome: string, eta: number): string {
+  
+  return nome + eta
+}
+
+console.log(utenti("fabio",39));
+
+
+
+
+
+
 // FUNCTION OVERLOAD
 
 function add(a: string, b: string): string;
