@@ -14,15 +14,14 @@ const HttpRequestPost: React.FC<IHttp> = () => {
     setIsLoading(true);
     setError("");
     try {
-      const response = await axios.post(
-        "https://corso-react-6e696-default-rtdb.firebaseio.com/movies.json"
+      const response = await axios.get(
+        "https://create-react-67625-default-rtdb.firebaseio.com/movies.json"
       );
       if (!response.data) {
         throw new Error("Something went wrong!");
       }
 
-      const data = await response.data;
-
+      const data = response.data;
       const loadedMovies = [];
 
       for (const key in data) {
@@ -35,8 +34,8 @@ const HttpRequestPost: React.FC<IHttp> = () => {
       }
 
       setMovies(loadedMovies);
-    } catch (error) {
-      setError("");
+    } catch (error: any) {
+      setError(error.message || "Impossibile caricare i film");
     }
     setIsLoading(false);
   }, []);
@@ -46,18 +45,16 @@ const HttpRequestPost: React.FC<IHttp> = () => {
   }, [fetchMoviesHandler]);
 
   const addMovieHandler = async (movie: IHttp) => {
-    const response = await axios.post(
-      "https://corso-react-6e696-default-rtdb.firebaseio.com//movies.json",
-      {
-        method: "POST",
-        body: JSON.stringify(movie),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-    const data = await response.data;
-    console.log(data);
+    try {
+      const response = await axios.post(
+        "https://create-react-67625-default-rtdb.firebaseio.com/movies.json",
+        movie
+      );
+      console.log(response.data);
+      fetchMoviesHandler(); // Ricarica i film dopo l'aggiunta
+    } catch (error) {
+      console.error("Errore aggiunta film:", error);
+    }
   };
 
   let content = <p>Found no movies.</p>;

@@ -4,6 +4,9 @@ const Student = () => {
   const name = "Paul";
   const surname = "Sholl";
   const age = 32;
+
+
+  
   return (
     <div className="student">
       <p>{name}</p>

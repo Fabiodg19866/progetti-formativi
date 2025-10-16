@@ -2,10 +2,10 @@ import { useContext, createContext } from "react";
 import { IIntroduction } from "../../../1-Introduction/model/IIntroduction";
 
 
-const UserContext = createContext("Old State");
+const UserContext = createContext("mirko");
 
 const Application: React.FC<IIntroduction> = () => {
-  const userName = "New State";
+  const userName = "fabio";
   return (
     <UserContext.Provider value={userName}>
       <Layout />

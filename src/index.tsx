@@ -2,7 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import App from "./App";
+import RoutDynamic from "./11-Router/09-dynamic-routes/RoutDynamic";
+
+
+
+
 
 
 
@@ -11,7 +15,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App/>
+    <RoutDynamic/>
+
   </React.StrictMode>
 );
 
