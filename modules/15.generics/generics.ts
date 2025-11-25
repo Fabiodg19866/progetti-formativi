@@ -11,9 +11,13 @@ let result2 = fun<number>(200);
 console.log(result);
 console.log(result2);
 
+console.log("----------------------");
+
+
 function fu<T, U, V>(args1: T, args2: U, args3: V): V {
   return args3;
 }
+
 
 let result3 = fu<string, number, boolean>("hey", 3, false);
 
