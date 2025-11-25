@@ -1,4 +1,4 @@
-let colori: any[] = ["rosso", "verde", 1, "giallo", "blue"];
+let colori: unknown[] = ["rosso", "verde", 1, "giallo", "blue"];
 let id: number[];
 id = [1, 2, 3, 4, 5, 6, 7, 8];
 

@@ -12,3 +12,4 @@ function add(a, b) {
 console.log(add("Hello ", "Steve"));
 console.log(add(10, 20));
 console.log(add(10, 50));
+//# sourceMappingURL=function.js.map

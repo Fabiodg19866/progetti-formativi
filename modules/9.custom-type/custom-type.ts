@@ -47,3 +47,32 @@ function custom(description: Combinable, technology: ConversionDescriptor):strin
 
 console.log(custom('development','typescript'));
 
+
+type Persona = {
+  nome: string;
+  eta: number;
+  city: string,
+  nation: string,
+  id:number
+};
+
+const mario: Persona = { nome: "Mario", eta: 30,city:"Torino",nation:"Italy",id:1};
+console.log(mario);
+
+
+type Prodotto = { nome: string; prezzo: number };
+type Ordine = { prodotto: Prodotto; quantita: number };
+
+const ordine: Ordine = {
+  prodotto: { nome: "Libro", prezzo: 15 },
+  quantita: 2
+};
+console.log(ordine);
+
+type SommaFn = (a: number, b: number) => number;
+
+const somma: SommaFn = (x, y) => x + y;
+console.log(somma(5, 3));
+
+
+
