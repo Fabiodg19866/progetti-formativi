@@ -1,16 +1,17 @@
- import React from 'react'
- 
+import { Fragment } from "react";
+
 const DaughterComponent = () => {
-   
-   return (
-     <div>
-       <h1 style={{textAlign:'center'}}>
-         Benvenuto nel mondo React!
-        </h1>
-       
-     </div>
-   )
- }
- 
- export default DaughterComponent
- 
+  return (
+    <Fragment>
+      <h1 style={{ textAlign: "center" }}>Benvenuto nel mondo React!</h1>
+
+      <Fragment>
+        <div>
+          <p>Fragment</p>
+        </div>
+      </Fragment>
+    </Fragment>
+  );
+};
+
+export default DaughterComponent;

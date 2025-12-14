@@ -1,8 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
-import RoutDynamic from "./11-Router/09-dynamic-routes/RoutDynamic";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import HttpRequestPost from './9-Http/04-sending-a-post-request/HttpRequestPost';
+
 
 
 
@@ -11,12 +12,11 @@ import RoutDynamic from "./11-Router/09-dynamic-routes/RoutDynamic";
 
 
 const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+  document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <RoutDynamic/>
-
+    <HttpRequestPost/>
   </React.StrictMode>
 );
 

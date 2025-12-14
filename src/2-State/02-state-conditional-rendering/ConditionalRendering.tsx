@@ -5,7 +5,7 @@ import Tsx from "../../1-Introduction/3-tsx-code/Tsx";
 
 
 const ConditionalRendering = () => {
-  const isLoggedIn = false;
+  const isLoggedIn = true;
 
   
 
