@@ -10,3 +10,11 @@ if (num2 < num1) {
   console.log(true);
 }
 //   STEP OVER     STEP INTO
+
+
+
+for (let index = 1; index < 10; index++) {
+     
+     console.log(index);
+     
+}
