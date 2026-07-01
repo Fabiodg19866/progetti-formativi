@@ -1,12 +1,11 @@
-let stringa = "bruno"; //stringhe
-let numero = 123; // numeri
-let booleano = true; //booleani
-let oggetto = {}; // oggetto
-let array = []; // array di stringhe
-let union; // union di tipi
-let any = "fabio"; // qualunque dato
-let unk = 12; // dato non conosciuto
+var stringa = "bruno"; //stringhe
+var numero = 123; // numeri
+var booleano = true; //booleani
+var oggetto = {}; // oggetto
+var array = []; // array di stringhe
+var union; // union di tipi
+var any = "fabio"; // qualunque dato
+var unk = 12; // dato non conosciuto
 unk = true;
-let vo; // dato senza ritorno
-let nev; // dato che non tornerà mai
-//# sourceMappingURL=datatypes.js.map
+var vo; // dato senza ritorno
+var nev; // dato che non tornerà mai
