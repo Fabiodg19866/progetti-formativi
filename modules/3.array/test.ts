@@ -1,5 +1,15 @@
 
 
+const arrays: number[] = [1, 2, 3, 4, 5];
+
+const clr: string[] = ['rosso', 'giallo', 'arancione', 'verde']
+
+console.log(clr [1]);
+
+
+
+
+
 //Crea un array di interi e stampane ogni elemento.
 
 
@@ -11,6 +21,9 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log('----------');
+
+
+
 
 //Calcola la somma di tutti gli elementi di un array.
 

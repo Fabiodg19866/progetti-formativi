@@ -53,3 +53,17 @@ function getDipendente(stipendio: number, oreLavorate: number): number {
 
 
 console.log("TOTALE RETRIBUZIONE ORARIA :" + " "+ " €  " +getDipendente(1500,160));
+
+
+ function pariODispari(n: number): void {
+
+    if (n % 2 === 0) {
+        console.log(n + " è pari.");
+    } else {
+        console.log(n + " è dispari.");
+    }
+
+}
+
+pariODispari(4);
+

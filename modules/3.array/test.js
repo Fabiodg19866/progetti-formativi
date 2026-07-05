@@ -1,3 +1,6 @@
+var arrays = [1, 2, 3, 4, 5];
+var clr = ['rosso', 'giallo', 'arancione', 'verde'];
+console.log(clr[1]);
 //Crea un array di interi e stampane ogni elemento.
 var arr = [1, 2, 3, 4, 5];
 for (var i = 0; i < arr.length; i++) {
