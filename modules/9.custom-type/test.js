@@ -1,0 +1,6 @@
+// IL TIPO CUSTOM TYPE PERMETTE DI MEMORIZZARE TIPI PRIMITIVI AL SUO INTERNO EVITANDO 
+// DI AVERE UN UNICO TIPO IN FASE DI UTILIZZO
+var somma3 = function (a, b) {
+    return a + b;
+};
+console.log(somma3(5, 3));

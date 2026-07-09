@@ -1,7 +1,15 @@
+// LA TUPLA E' UNA STRUTTURA DI DATI PIU' PRECISA DELL'ARRAY IN QUANTO E POSSIBILE AVERE DATI DI TIPO DIVERSO
+
+
 let tupla: [string, string];
 tupla = ["tupla", "typescript"];
 console.log(tupla);
 
+let test: [number, number] = [1, 40]
+console.log(test[1]);
+
+
+/*
 let employee: [number, string][];
 employee = [
   [1, "Steve"],
@@ -16,3 +24,5 @@ let names: [number, string] = [1, "Steve"];
 //names[1]
 
 console.log(names);
+
+*/
