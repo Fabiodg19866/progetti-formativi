@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nome": "Mouse",
+    "quantita": 10
+  },
+  {
+    "id": 2,
+    "nome": "Tastiera",
+    "quantita": 0
+  },
+  {
+    "id": 3,
+    "nome": "Monitor",
+    "quantita": 8
+  },
+  {
+    "id": 4,
+    "nome": "Webcam",
+    "quantita": 0
+  }
+]

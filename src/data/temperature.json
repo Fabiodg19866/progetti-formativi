@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "citta": "Bari",
+    "gradi": 36
+  },
+  {
+    "id": 2,
+    "citta": "Stoccolma",
+    "gradi": 20
+  },
+  {
+    "id": 3,
+    "citta": "Mosca",
+    "gradi": 2
+  },
+  {
+    "id": 4,
+    "citta": "Catanzaro",
+    "gradi": 39
+  }
+]

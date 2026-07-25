@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Avatar",
+        "description": "Film di fantascienza ambientato su Pandora",
+        "type": "Fantasy",
+        "release": 2009
+    },
+    {
+        "id": 2,
+        "title": "Titanic",
+        "description": "Storia d'amore sul famoso transatlantico",
+        "type": "Drama",
+        "release": 1997
+    },
+    {
+        "id": 3,
+        "title": "Matrix",
+        "description": "Film di fantascienza con realtà virtuale",
+        "type": "Action",
+        "release": 1999
+    },
+    {
+        "id": 4,
+        "title": "Interstellar",
+        "description": "Viaggio nello spazio alla ricerca di un nuovo pianeta",
+        "type": "Science Fiction",
+        "release": 2014
+    }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nome": "Giuseppe",
+    "cognome": "Verdi",
+    "eta": 45,
+    "citta": "Milano",
+    "nazione": "Italia"
+  },
+  {
+    "id": 2,
+    "nome": "Antonio",
+    "cognome": "Bianchi",
+    "eta": 25,
+    "citta": "Torino",
+    "nazione": "Italia"
+  },
+  {
+    "id": 3,
+    "nome": "Giacomo",
+    "cognome": "Esposito",
+    "eta": 25,
+    "citta": "Napoli",
+    "nazione": "Italia"
+  },
+  {
+    "id": 4,
+    "nome": "Michele",
+    "cognome": "Lorusso",
+    "eta": 35,
+    "citta": "Bari",
+    "nazione": "Italia"
+  },
+  {
+    "id": 5,
+    "nome": "Giada",
+    "cognome": "Verdi",
+    "eta": 55,
+    "citta": "Bergamo",
+    "nazione": "Italia"
+  },
+  {
+    "id": 6,
+    "nome": "Antonio",
+    "cognome": "Garibaldi",
+    "eta": 45,
+    "citta": "Brescia",
+    "nazione": "Italia"
+  },
+  {
+    "id": 7,
+    "nome": "Mirko",
+    "cognome": "Rossi",
+    "eta": 28,
+    "citta": "Verona",
+    "nazione": "Italia"
+  },
+  {
+    "id": 8,
+    "nome": "Marco",
+    "cognome": "Rossi",
+    "eta": 36,
+    "citta": "Vicenza",
+    "nazione": "Italia"
+  }
+]
