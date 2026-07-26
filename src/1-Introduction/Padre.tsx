@@ -1,4 +1,5 @@
 import Figlio1 from "./Figlio1";
+import "./Introduction.css";
 
 const Padre = () => {
   return (
