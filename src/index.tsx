@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import Padre from "./1-Introduction/Padre";
+import User from "./11-Spring-React/User";
+
 
 
 
@@ -10,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Padre/>
+    <User/>
   </React.StrictMode>,
 );
 
